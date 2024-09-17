@@ -4,6 +4,7 @@
 # script to deploy/update the gateway stack on the server. Also take a look
 # into the README.md file.
 #
+source env.sh
 SRV="${SSH_SERVER}"
 
 function exitIfErr() {
